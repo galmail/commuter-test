@@ -1,0 +1,39 @@
+.vote-container {
+  .name-input {
+    max-width: 400px;
+  }
+}
+
+.results-container {
+  
+  .left {
+    float: left;
+  }
+    
+  .chart-container {
+    clear: both;
+    overflow: hidden;
+  }
+
+  .line {
+    height: 20px;
+    margin-top: 5px;
+  }
+
+  .chart {
+    margin-left: 20px;
+    & > div {
+      background-color: steelblue;
+    }
+  }
+
+  .back-button {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0;
+    .glyphicon {
+      font-size: 14px;
+    }
+  }
+
+}
